@@ -5,6 +5,7 @@ all:
 
 shell:
 	ln -f vimrc ${HOME}/.vimrc
+	ln -f bashrc ${HOME}/.bashrc
 #	ln -f profile ${HOME}/.profile
 #	ln -f ssh.config ${HOME}/.ssh/config
 #	ln -f inputrc ${HOME}/.inputrc
