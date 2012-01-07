@@ -30,6 +30,7 @@ export PATH="$PATH:/home/nickoe/toolchains/arm-elf2/bin"
 export PATH="$PATH:/home/nickoe/toolchains/mipsel-toolchain/usr/bin"
 export PATH="$PATH:/home/nickoe/dsv/bin/"
 export PATH="$PATH:/home/nickoe/.scripts"
+export PATH="$PATH:/opt/maple/bin"
 
 ### EXTRACT ARCHIVES
 extract () {
