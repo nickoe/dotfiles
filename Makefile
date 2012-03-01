@@ -16,3 +16,6 @@ desktop:
 #	ln -f bbkeysrc ${HOME}/.bbkeysrc
 #	ln -f blackbox.menu ${HOME}/.blackbox.menu
 #	ln -f blackbox.rc ${HOME}/.blackboxrc
+	ln -f openbox/autostart ${HOME}/.config/openbox/autostart
+	ln -f openbox/rc.xml ${HOME}/.config/openbox/rc.xml
+	ln -f openbox/menu.xml ${HOME}/.config/openbox/menu.xml
