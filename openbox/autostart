@@ -4,6 +4,7 @@
 # to run user-specific things.
 #
 
+firefox &
 setxkbmap dk &
 tint2 &
 
