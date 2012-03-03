@@ -5,7 +5,12 @@
 ### COLORRIZED TERM
 alias ls='ls --color=auto'
 #PS1='[\u@\h \W]\$ ' #default terminal thing
-PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[0;36m\]\w\[\e[m\] \[\e[1;32m\]\$ \[\e[m\]\[\e[0;37m\] '
+#PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[0;36m\]\w\[\e[m\] \[\e[1;32m\]\$ \[\e[m\]\[\e[0;37m\] '
+
+# Line graphics for the prompt
+zg1="─"; zg2="┌"; zg3="└"; zg4="┤"; zg5="├"; zg6=">"; zg7="|"; zg8=" ";
+
+PS1='$zg2$zg1[\[\e[0;32m\]\u\[\e[m\] \[\e[0;36m\]\w\[\e[m\]]\n$zg3$zg1$zg8\[\e[1;32m\]\$\[\e[m\]\[\e[0;37m\] '
 
 ### MY STUFF
 alias ex='extract'
