@@ -9,8 +9,8 @@ alias ls='ls --color=auto'
 
 # Line graphics for the prompt
 zg1="─"; zg2="┌"; zg3="└"; zg4="┤"; zg5="├"; zg6=">"; zg7="|"; zg8=" ";
-
 PS1='$zg2$zg1[\[\e[0;32m\]\u\[\e[m\] \[\e[0;36m\]\w\[\e[m\]]\n$zg3$zg1$zg8\[\e[1;32m\]\$\[\e[m\]\[\e[0;37m\] '
+# https://bbs.archlinux.org/viewtopic.php?id=84386
 
 ### MY STUFF
 alias ex='extract'
@@ -36,6 +36,7 @@ export PATH="$PATH:/home/nickoe/toolchains/mipsel-toolchain/usr/bin"
 export PATH="$PATH:/home/nickoe/dsv/bin/"
 export PATH="$PATH:/home/nickoe/.scripts"
 export PATH="$PATH:/opt/maple/bin"
+export PATH="$PATH:/opt/matlab/bin"
 
 ### EXTRACT ARCHIVES
 extract () {

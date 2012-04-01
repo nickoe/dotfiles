@@ -340,6 +340,11 @@
         <execute>pcmanfm</execute>
       </action>
     </keybind>
+    <keybind key="C-A-S">
+      <action name="execute">
+        <execute>lxterminal -e htop</execute>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
