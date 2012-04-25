@@ -19,3 +19,4 @@ desktop:
 	ln -f openbox/autostart ${HOME}/.config/openbox/autostart
 	ln -f openbox/rc.xml ${HOME}/.config/openbox/rc.xml
 	ln -f openbox/menu.xml ${HOME}/.config/openbox/menu.xml
+	ln -f tint2rc ${HOME}/.config/tint2/tint2rc
