@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Mire_v2_blue</name>
+    <name>Clearlooks-3.4</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -343,6 +343,11 @@
     <keybind key="C-A-S">
       <action name="execute">
         <execute>lxterminal -e htop</execute>
+      </action>
+    </keybind>
+    <keybind key="C-A-L">
+      <action name="execute">
+        <execute>evince ~/.static/ltxb-2011-09-13-20-10.pdf</execute>
       </action>
     </keybind>
   </keyboard>

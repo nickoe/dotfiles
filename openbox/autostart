@@ -7,5 +7,5 @@
 firefox &
 setxkbmap dk &
 tint2 &
-feh --bg-fill ~/billeder/arch-hanky.jpg &
-volwheel &
+#feh --bg-fill ~/billeder/arch-hanky.jpg &
+xchat & 

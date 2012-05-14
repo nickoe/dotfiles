@@ -38,6 +38,8 @@ export PATH="$PATH:/home/nickoe/.scripts"
 export PATH="$PATH:/opt/maple/bin"
 export PATH="$PATH:/opt/matlab/bin"
 
+export VDPAU_NVIDIA_NO_OVERLAY=1
+
 ### EXTRACT ARCHIVES
 extract () {
     if [ -f $1 ]; then
@@ -53,6 +55,7 @@ extract () {
             *.zip)       unzip $1      ;;
             *.Z)         uncompress $1 ;;
             *.7z)        7z x $1       ;;
+						*.tar.xz)    tar -xJf $1   ;;
             *)           echo "'$1' cannot be extracted via extract()" ;;
         esac
     else
